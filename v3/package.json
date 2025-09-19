@@ -49,7 +49,7 @@
     ]
   },
   "scripts": {
-    "start": "webpack serve --server-type http",
+    "start": "webpack serve --server-type http --port 9006",
     "start:clean": "npm run clean:cache && npm start",
     "start:clean:all": "npm run clean:all && npm start",
     "start:secure": "webpack serve",
